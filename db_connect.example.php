@@ -1,0 +1,1 @@
+\<?php $serverName = "YOUR_SERVER_NAME";  $connectionOptions = array(     "Database" => "CampusAssetDB",     "TrustServerCertificate" => true );  $conn = sqlsrv_connect($serverName, $connectionOptions);  if ($conn === false) {     die("Database connection failed."); } ?>
